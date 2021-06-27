@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "scss.validate": false,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)",
+      "tw=\"([^\"]*)",
+      "tw={\"([^\"}]*)",
+      "tw\\.\\w+`([^`]*)",
+      "tw\\(.*?\\)`([^`]*)"
+    ],
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript"
+    }
+  },
+  "extensions": {
+    "recommendations": ["bradlc.vscode-tailwindcss"]
+  }
+}
