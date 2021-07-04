@@ -8,7 +8,9 @@ import { Div } from "./elements";
 const About = () => {
   const currentYear = new Date().getFullYear();
   const yearWhenIStartedFirstJob = new Date(2011, 11, 11).getFullYear();
+  const yearWhenIStartedWorkingInCactus = new Date(2016, 6, 1).getFullYear();
   const experience = currentYear - yearWhenIStartedFirstJob;
+  const experienceInCactus = currentYear - yearWhenIStartedWorkingInCactus;
 
   return (
     <Div tw="divide-y-2 divide-gray-200">
@@ -16,28 +18,28 @@ const About = () => {
         <FontAwesomeIcon tw="mr-3 mt-1" icon={faUser} size="lg" />
         <H4 tw="uppercase font-extrabold">About Me</H4>
       </Div>
-      <Div tw="pt-2 flex flex-col space-y-4">
+      <Div tw="pt-2 lg:pt-7 flex flex-col space-y-4">
         <P>
-          I have spent {experience} years of my life in the software industry,
-          helping large companies, utilise software to become more eﬃcient,
-          automate redundant jobs and manage their business. You could say that,
-          my eﬀorts always focus on making the big, even bigger.
+          I'm Sahil, working as Associate Director of Engineering in CACTUS.
+          I've been on a gratifying journey with Cactus for the last{" "}
+          {experienceInCactus} years, lifting my expertise &amp; experience,
+          working with passionate and delightful people who are full of color.
+          My main focus is on building high-performance team, great products,
+          and high-quality development culture.
         </P>
         <P>
-          My resume can be summarised as simplifying complex systems by
-          packaging technological advances into friendly experiences.
+          I have been spending {experience} years of my life in the software
+          industry, helping people and processes to become efficient, automate
+          redundant jobs, and manage a department. My focus is always on making
+          the big bigger. I like simplifying complex systems by packaging
+          technological advances into friendly experiences. I make open-source
+          contributions in some of the frameworks we use in the organization and
+          own some npm packages and GitHub projects that have healthy downloads.
         </P>
         <P>
-          While not quite at the age for a mid life crisis, I have been looking
-          for a signiﬁcant change &amp; a meaningful mission or put simply, an
-          endeavour that would be fulﬁlling, contribute to my happiness &amp; my
-          freedom.
-        </P>
-        <P>
-          What could be more gratifying than lifting my expertise, experience
-          &amp; moving it to a completely diﬀerent domain that I ﬁnd
-          exhilarating, full of colour with passionate and delightful people,
-          and super important to the way we live our lives?
+          Off work, I spend my time with family &amp; two lovely felines. I also
+          keep interested in blog writing (technology &amp; finance),
+          astrophysics, traveling, graphic designing, and investing/trading.
         </P>
       </Div>
     </Div>
