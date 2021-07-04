@@ -6,10 +6,17 @@ import About from "../components/about";
 import Education from "../components/education";
 import Skills from "../components/skills";
 import Experience from "../components/experience";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Sahil Purav - Associate Director, Programmer, Leader, Mentor, Open Source Contributor
+        </title>
+      </Helmet>
       <Header />
       <Wrapper>
         <Div tw="lg:flex lg:space-x-16">
