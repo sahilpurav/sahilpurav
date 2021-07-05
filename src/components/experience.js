@@ -78,7 +78,7 @@ const companies = [
   {
     name: "Chenoa Information Services",
     description:
-      "Chenoa, a provider of software engineering services, helps clients innovate, develop, and manage their software products and platforms. Chenoa offers a broad range of services working at the intersection of business and technology fostering innovation in areas of product engineering, digital transformation, data + AI, and IoT. My profle was to help providing solutions of complex business problems in creative ways by considering end user experience to develop products or solutions that are usable, engaging, functional and profitable.",
+      "Chenoa, a provider of software engineering services, helps clients innovate, develop, and manage their software products and platforms. Chenoa offers a broad range of services working at the intersection of business and technology fostering innovation in areas of product engineering, digital transformation, data + AI, and IoT. My profile was to help providing solutions of complex business problems in creative ways by considering end user experience to develop products or solutions that are usable, engaging, functional and profitable.",
     roles: [
       {
         designation: "Lead Software Engineer",

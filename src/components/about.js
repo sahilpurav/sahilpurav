@@ -30,11 +30,13 @@ const About = () => {
         <P>
           I have been spending {experience} years of my life in the software
           industry, helping people and processes to become efficient, automate
-          redundant jobs, and manage a department. My focus is always on making
-          the big bigger. I like simplifying complex systems by packaging
-          technological advances into friendly experiences. I make open-source
-          contributions in some of the frameworks we use in the organization and
-          own some npm packages and GitHub projects that have healthy downloads.
+          redundant jobs, and manage a department. I focus on building
+          futuristic products and encourage my team and department to operate
+          with scalability in mind. I like simplifying complex systems by
+          packaging technological advances into friendly experiences. I make
+          open-source contributions in some of the frameworks we use in the
+          organization and own some npm packages and GitHub projects that have
+          healthy downloads.
         </P>
         <P>
           Off work, I spend my time with family &amp; two lovely felines. I also
