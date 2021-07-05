@@ -12,7 +12,10 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E3IUJZSEWXOTR9 --paths /* --profile sahilpurav",
+    "sync": "aws s3 sync . s3://sahilpurav.com --profile sahilpurav --acl public-read",
+    "deploy": "npm run build && cd public && npm run sync && npm run invalidate"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
