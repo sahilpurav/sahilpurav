@@ -6,6 +6,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-fontawesome-css",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
