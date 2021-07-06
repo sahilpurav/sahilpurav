@@ -40,7 +40,7 @@ const About = () => {
         </P>
         <P>
           Off work, I spend my time with family &amp; two lovely felines. I also
-          keep interested in blog writing (technology &amp; finance),
+          keep interest in blog writing (technology &amp; finance),
           astrophysics, traveling, graphic designing, and investing/trading.
         </P>
       </Div>
