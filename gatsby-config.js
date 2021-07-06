@@ -3,6 +3,15 @@ module.exports = {
     title: "sahilpurav",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-SJ3187ZZJ0"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
